@@ -3,8 +3,8 @@ def rotateLeft(a, d,n):
     length = len(a)     
     newArray = [0 for x in a] # Initialize 0 in an array of size 5.
     for i in range(n):
-        o = i-d          
-        newArray[o]=str(a[i]) 
+        newElement = i-d          
+        newArray[newElement]=str(a[i]) 
     result = " ".join(newArray)
     return result
 
